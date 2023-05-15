@@ -1,0 +1,59 @@
+.center{
+  display:flex;
+  padding-top: 50px;
+}
+table, td, th {
+    border: 1px solid black;
+  }
+
+  #form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  label, input, button {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .bookshelf {
+    display: table;
+    width: 70%;
+    border-collapse: collapse;
+  }
+  
+  tr {
+    display: table-row;
+    background-color: #86efac;
+  }
+  
+  td {
+    display: table-cell;
+    width: calc(100% / 7);
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  #show-form-button{
+    padding: 5px 50px;
+  }
